@@ -10980,7 +10980,7 @@ header.masthead h1, header.masthead .h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
+  width:100%;
   height: 100%;
   position: absolute;
   bottom: 0;
@@ -11003,3 +11003,40 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/media.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+.veno-video {
+  position: relative;
+
+  width: auto;
+  position: relative;
+
+}
+
+.veno-video a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  left: 50%;
+  top: 50%;
+
+  margin: auto;
+  margin-left: -25px;
+  margin-top: -50px;
+}
+
